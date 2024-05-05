@@ -10,7 +10,7 @@ from PIL import Image
 import pandas as pd
 import base64
 import sys
-sys.path.insert(1, "C:\Users\jt_ur\anaconda3\Lib\site-packages\streamlit_option_menu")
+sys.path.insert(1, r"C:\Users\jt_ur\anaconda3\Lib\site-packages\streamlit_option_menu")
 from streamlit_option_menu import option_menu
 
 from co2_plotly import fig1
